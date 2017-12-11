@@ -1,0 +1,630 @@
+html {
+    overflow-y : scroll;
+}
+
+a {
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.note-editor .note-toolbar {
+    text-align: left !important;
+    padding: 5px !important;
+}
+
+.note-editor .note-toolbar > .btn-group {
+    margin: 0 !important;
+    margin-right: 5px !important;
+    margin-bottom: 5px !important;
+    border: 1px solid #e2e2e2;
+}
+
+.note-dialog {
+    z-index: 1060;
+    position: relative;
+}
+
+.modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+label.required:after {
+    content: "*";
+    color: #f44336;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.valign-middle {
+    vertical-align: middle !important;
+}
+
+.valign-top {
+    vertical-align: top !important;
+}
+
+.valign-bottom {
+    vertical-align: bottom !important;
+}
+
+.mCSB_container {
+    overflow: visible !important;
+}
+
+.project-team img {
+    width: 35px;
+    display: block;
+    height: 35px;
+}
+
+.project-team a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.nav-tabs.tab-nav {
+    overflow: visible;
+}
+
+.tab-nav.nav-tabs > li.active > a {
+    background-color: #f1f1f1 !important;
+    border-color: #eee #eee #fff !important;
+}
+
+.tab-nav.nav-tabs > li > a {
+    box-sizing: border-box;
+    margin: 0 !important;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.project-header {
+    margin-bottom:  0;
+}
+
+.project-logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.project-logo img {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.project-demo {
+    padding-left: 45px;
+}
+
+.btn-add-top-right {
+    position: absolute;
+    top: -20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.table-filter {
+    display: table-cell;
+    vertical-align: bottom;
+    padding-right: 20px;
+    width: 1%;
+    min-width: 100px;
+}
+
+.table-filter > * {
+    width: 100%;
+}
+
+.project-tasks-block {
+    position: relative;
+}
+
+.project-sprints {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+}
+
+.project-tasks {
+    margin-left: 330px;
+
+    &.only-tasks {
+        margin-left: 0;
+    }
+}
+
+.project-tasks .card-body {
+    min-height: 300px;
+}
+
+@media(max-width: 1400px) {
+    .project-sprints {
+        width: 100%;
+        position: relative;
+
+        .mCustomScrollBox {
+            min-height: 0 !important;
+        }
+    }
+
+    .project-tasks {
+        margin-left: 0;
+    }
+}
+
+.sprint-tasks {
+    border-top: 1px solid #eee;
+    display: none;
+}
+
+.sprint-item-hidden {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.10);
+}
+
+.sprint-item-showed .sprint-actions .zmdi {
+    color: #fff;
+}
+
+.sprint-item-showed .sprint-toggle {
+    color: #fff !important;
+    background: #26A69A !important;
+}
+
+.sprint-item-showed .sprint-toggle:before {
+    background: #fff;
+}
+
+.sprint-item-showed .sprint-toggle span {
+    color: #fff !important;
+}
+
+.input-label {
+    padding-top: 7px;
+}
+
+body:before {
+    height: 224px;
+}
+
+
+.c-header > h2 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.header-arrow-left:before {
+    content: "";
+    position: absolute;
+    border: 17px  solid transparent;
+    border-right-color: #26A69A;
+    right: 100%;
+    top: 50%;
+    margin-top: -17px;
+}
+
+.actions > li > a.action-bg {
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.sub-menu > a:before,
+.sub-menu > a:after {
+    opacity: 1 !important;
+}
+
+.secected-options {
+    width: 80px;
+    white-space: nowrap;
+    padding-left: 24px;
+    height: 50px
+}
+
+.table-hover th {
+    min-height: 50px !important;
+}
+
+
+.timepicker-picker .btn, .timepicker-picker .btn {
+    color: #009688 !important;
+}
+
+.bootstrap-datetimepicker-widget {
+
+    td {
+        &.minute,
+        &.hour {
+            height: 54px !important;
+            line-height: 54px !important;
+            width: 54px;
+            min-width: 54px;
+        }
+    }
+}
+
+.table > thead > tr > th {
+    background: #f3f3f3;
+    height: 50px;
+}
+
+.sort-item {
+    cursor: pointer;
+    position: relative;
+    padding-right: 20px !important;
+}
+
+.sort-item:hover {
+    background: #fff;
+}
+
+.sort-icon {
+    position: absolute;
+    right: 9px;
+}
+
+.project-sprints .mCustomScrollBox {
+    min-height: 300px;
+}
+
+.active > a {
+    background-color: #F3F3F3;
+}
+
+pre:not(.pre) {
+    font-family: noto-sans !important;
+}
+
+.four-zero {
+    position: relative;
+    z-index: 2;
+}
+
+
+/**
+ * Buttons
+ */
+
+.btn-gray {
+    background: #f5f5f5 !important;
+    color: #949494 !important;
+    border: 1px solid #cecece !important;
+    box-shadow: none !important;
+
+    &:hover {
+        background: darken(#f5f5f5, 5%) !important;
+    }
+}
+
+/**
+ * Buttons
+ */
+
+
+/**
+ * Fonts styles
+ */
+
+.font-lg {
+    font-size: 24px !important;
+}
+.font-md {
+    font-size: 22px !important;
+}
+
+.font-sm {
+    font-size: 18px !important;
+}
+
+.font-xs {
+    font-size: 14px !important;
+}
+/**
+ * Fonts styles
+ */
+
+/**
+ * Default images
+ */
+img[data-image-big],
+img[data-image-1] {
+    position: relative;
+    overflow: hidden;
+}
+
+img[data-image-big]:empty:after,
+img[data-image-1]:empty:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../img/profile-pics/2.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+img[data-image-big]:empty:after {
+    background: url("../img/no-file.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+/**
+ * Default images
+ */
+
+.task-name-wrap {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+    display: inline-block;
+}
+
+/**
+ * Sub tasks styles
+ */
+.sub-tasks-panel {
+    .panel-heading {
+        &:after,
+        &:before {
+            left: 20px;
+            top: 10px;
+        }
+
+        .panel-title {
+            > .accordion-toggle {
+                padding-left: 40px;
+                padding-top: 13px;
+            }
+        }
+    }
+
+    .panel-body {
+        padding-left: 0;
+        padding-top: 0;
+        padding-right: 0;
+    }
+}
+
+.panel-collapse {
+    .panel-heading {
+        &:before {
+            content : '\f2f9' !important;
+        }
+        &:after {
+            content : '\f2fc' !important;
+        }
+    }
+}
+
+.panel-open {
+    .panel-collapse {
+        .panel-heading {
+            &:before {
+                transform: scale(0);
+            }
+
+            &:after {
+                transform: scale(1);
+            }
+
+            .panel-title {
+                > .accordion-toggle {
+                    &:after {
+                        background: #00bcd4;
+                        transform: scale(1);
+                    }
+                }
+            }
+        }
+    }
+
+    .panel-body {
+        border-bottom: 2px solid #eee;
+    }
+}
+
+.task-sub-related {
+    .panel-title {
+        .btn {
+            background: #f5f5f5;
+            color: #949494;
+            border: 1px solid #cecece;
+            box-shadow: none;
+        }
+    }
+}
+/**
+ * Sub tasks styles
+ */
+
+/**
+ * Forms controls
+ */
+.chosen-container-single {
+    .chosen-single {
+        border: 1px solid #e0e0e0 !important;
+        padding-left: 10px !important;
+        padding-top: 4px !important;
+        background: #fff !important;
+
+        &:before {
+            top: auto !important;
+            bottom: 3px !important;
+            right: 3px !important;
+            width: 8px !important;
+            height: 8px !important;
+        }
+    }
+}
+
+.chosen-container-multi {
+    .chosen-choices {
+        border: 1px solid #e0e0e0 !important;
+        padding-left: 5px !important;
+        padding-top: 2px !important;
+        background: #fff !important;
+
+        li.search-field input[type=text] {
+            height: 28px;
+        }
+
+        li.search-choice {
+            padding: 4px 23px 4px 8px;
+
+            .search-choice-close {
+                top: 3px;
+            }
+
+        }
+    }
+}
+
+.chosen-container {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+
+    .chosen-drop {
+        top: 100%;
+    }
+}
+
+
+textarea.form-control,
+input.form-control {
+    border: 1px solid #e0e0e0 !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+textarea.form-control {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.form-control-custom {
+    border-color: rgba(0, 0, 0, 0) !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 3px !important;
+}
+
+.autocomplete {
+    display: block;
+    top: ~"calc(100% + 3px)";
+    right: 0;
+    left: auto;
+    max-width: 150%;
+    min-width: 100%;
+
+    li {
+        a {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}
+/**
+ * Forms controls
+ */
+
+
+/**
+ * Task edit fields
+ */
+.task-edit-field {
+    position: absolute;
+    top: -3px;
+    left: -11px;
+    right: -10px;
+    z-index: 2;
+
+    input {
+        height: 36px;
+        padding-right: 75px !important;
+    }
+
+    .chosen-container-single {
+        box-shadow: none;
+
+        .chosen-single {
+            border-color: transparent !important;
+            height: 36px;
+            padding-top: 5px;
+            text-transform: none !important;
+
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
+
+.task-edit-plan {
+    padding-right: 38px;
+    background: #fff;
+
+    input {
+        padding-right: 5px !important;
+    }
+
+    .dtp-container {
+        float: left;
+        width: 50%;
+
+        &:first-of-type {
+            padding-right: 5px;
+        }
+
+        &:last-of-type {
+            padding-left: 5px;
+        }
+    }
+}
+
+.task-edit-descr {
+    .note-editor {
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+    }
+}
+/**
+ * Task edit fields
+ */
+
+.table {
+    th {
+        white-space: nowrap;
+    }
+}
+
+
+.bootstrap-datetimepicker-widget{
+    z-index: 12;
+}
+
+
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+    background: transparent;
+
+    &:before {
+        background: transparent;
+    }
+}
+
+.main-menu {
+    .tooltip {
+        white-space: nowrap;
+    }
+}
